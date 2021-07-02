@@ -1,0 +1,32 @@
+.homenav {
+	width:100% !important; /*di buat important agar style ini tetap di jalankan */
+	position:absolute !important;
+	z-index:10;
+	background: rgba(0, 0, 0, 0.5) !important;
+	border-radius:0 !important; 
+}
+
+.homenav .navbar-toggler {
+	background:white !important;
+}
+
+.homenav .collapse li a:hover {
+	color:#3498DB !important;
+}
+
+.content {
+	margin-top:80px; 
+}
+
+.content h3 i {
+	background:#3498DB;
+	padding:10px;
+	color:white; 
+
+}
+
+.joinus {
+	background:#333333 !important;
+	height:200px !important;
+	margin-top:40px; 
+}
